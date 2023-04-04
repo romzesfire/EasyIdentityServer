@@ -7,7 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\EasyIdentityServer.Domain\EasyIdentityServer.Domain.csproj" />
+      <ProjectReference Include="..\EasyIdentityServer.DAL\EasyIdentityServer.DAL.csproj" />
+      <ProjectReference Include="..\EasyIdentityServer.DTO\EasyIdentityServer.DTO.csproj" />
     </ItemGroup>
 
 </Project>

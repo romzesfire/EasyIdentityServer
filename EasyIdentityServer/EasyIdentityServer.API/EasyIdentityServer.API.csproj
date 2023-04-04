@@ -13,7 +13,14 @@
 
     <ItemGroup>
       <ProjectReference Include="..\EasyIdentityServer.DTO\EasyIdentityServer.DTO.csproj" />
+      <ProjectReference Include="..\EasyIdentityServer.Repository\EasyIdentityServer.Repository.csproj" />
       <ProjectReference Include="..\EasyIdentityServer.Service\EasyIdentityServer.Service.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
