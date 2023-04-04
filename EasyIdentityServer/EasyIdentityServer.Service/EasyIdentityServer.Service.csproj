@@ -7,7 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\EasyIdentityServer.DAL\EasyIdentityServer.DAL.csproj" />
       <ProjectReference Include="..\EasyIdentityServer.DTO\EasyIdentityServer.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.28.1" />
     </ItemGroup>
 
 </Project>
