@@ -10,8 +10,11 @@ public class User
     public byte[] SecretKeyHash { get; set; }
     public IPAddress IpAddress { get; set; }
 
-    public User()
+    public User() { }
+    public User(Guid userId, byte[] secretKeyHash, IPAddress ip)
     {
-        IPAddress.
+        UserId = userId;
+        SecretKeyHash = secretKeyHash;
+        IpAddress = ip;
     }
 }
